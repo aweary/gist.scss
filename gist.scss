@@ -1,0 +1,67 @@
+$gist-border: none;
+
+/* Gist meta section */
+$gist-meta-display: none;
+$gist-meta-bg: darken($paleyellow, 5%);
+$gist-meta-color: $mediumgray;
+
+/* Main background and general text style */
+$gist-bg: $paleyellow;
+$gist-color: $darkgray;
+
+/* Line numbers */
+$gist-line-number-bg: $paleyellow;
+$gist-line-number-color: $cyan;
+
+/* Colors! */
+
+$first-color: $blue;
+$second-color: $red;
+$third-color: $green;
+$fourth-color: $cyan;
+$fifth-color: $pink;
+$sixth-color: $purple;
+$seventh-color: $yellow;
+
+
+.gist {
+
+  /* primary text */
+  .line-data {
+    color: $gist-color;
+  }
+  /* access the border */
+  .gist-file {
+    border: $gist-border !important;
+  }
+  .gist-data {
+    padding: 1em;
+    background-color: $gist-bg !important;
+    color: blue !important;
+  }
+  .highlight {
+    background-color: $gist-bg !important;
+  }
+
+  /* Classes used for individual code components */
+  .pl-k   { color: $first-color !important;   }
+  .pl-s   { color: $second-color !important;    }
+  .pl-s3  { color: $third-color !important;  }
+  .pl-s1  { color: $fourth-color !important;   }
+  .pl-st  { color: $fifth-color !important;   }
+  .pl-en  { color: $sixth-color !important; }
+  .pl-pds { color: $seventh-color !important; }
+
+
+  .line-numbers {
+    background-color: $gist-line-number-bg !important;
+    color: $gist-line-number-color !important;
+    border-right: $darkgray !important;
+  }
+
+  .gist-meta {
+    display: $gist-meta-display;
+    background-color: $gist-meta-bg !important;
+    color: $gist-meta-color !important;
+  }
+}
