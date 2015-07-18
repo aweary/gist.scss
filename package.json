@@ -1,0 +1,14 @@
+{
+  "name": "gist.scss",
+  "version": "0.0.1",
+  "description": "An easy way to restyle embedded gists",
+  "main": "gist.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gist"
+  ],
+  "author": "Brandon Dail <Kierkegaurd@gmail.com>",
+  "license": "MIT"
+}
