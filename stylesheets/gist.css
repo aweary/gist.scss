@@ -6,7 +6,6 @@
 /* Main background and general text style */
 /* Line numbers */
 /* Colors! */
-/* Main gist class */
 .gist {
   /* primary text */
   /* access the border */
@@ -21,24 +20,26 @@
     color: #475B62 !important; }
   .gist .highlight {
     background-color: #EAE3CB !important; }
+  .gist .main-content table td {
+    border: none !important; }
   .gist .pl-k {
-    color: #A57706 !important; }
+    color: #180821 !important; }
   .gist .pl-s {
-    color: #D11C24 !important; }
+    color: #D8BEED !important; }
   .gist .pl-s3 {
-    color: #738A05 !important; }
+    color: #DB4E5B !important; }
   .gist .pl-s1 {
-    color: #259286 !important; }
+    color: #A72E16 !important; }
   .gist .pl-st {
-    color: #C61C6F !important; }
+    color: #247BA0 !important; }
   .gist .pl-en {
-    color: #595AB7 !important; }
+    color: #70C1B3 !important; }
   .gist .pl-pds {
-    color: #A57706 !important; }
+    color: #AEADF0 !important; }
   .gist .line-numbers {
     background-color: #EAE3CB !important;
     color: #259286 !important;
-    border-right: #475B62 !important; }
+    border: none !important; }
   .gist .gist-meta {
     display: none;
     background-color: #e3d9b9 !important;
