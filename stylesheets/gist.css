@@ -11,15 +11,15 @@
   /* access the border */
   /* Classes used for individual code components */ }
   .gist .line-data {
-    color: #475B62; }
+    color: #333333; }
   .gist .gist-file {
     border: none !important; }
   .gist .gist-data {
     padding: 1em;
-    background-color: #EAE3CB !important;
-    color: #475B62 !important; }
+    background-color: #EEEEEE !important;
+    color: #333333 !important; }
   .gist .highlight {
-    background-color: #EAE3CB !important; }
+    background-color: #EEEEEE !important; }
   .gist .main-content table td {
     border: none !important; }
   .gist .pl-k {
@@ -37,8 +37,8 @@
   .gist .pl-pds {
     color: #AEADF0 !important; }
   .gist .line-numbers {
-    background-color: #EAE3CB !important;
-    color: #259286 !important;
+    background-color: #EEEEEE !important;
+    color: #04DBAC !important;
     border: none !important; }
   .gist .gist-meta {
     display: none;
