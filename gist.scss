@@ -1,28 +1,9 @@
-$gist-border: none;
-
-/* Gist meta section */
-$gist-meta-display: none;
-$gist-meta-bg: darken($paleyellow, 5%);
-$gist-meta-color: $mediumgray;
-
-/* Main background and general text style */
-$gist-bg: $paleyellow;
-$gist-color: $darkgray;
-
-/* Line numbers */
-$gist-line-number-bg: $paleyellow;
-$gist-line-number-color: $cyan;
-
-/* Colors! */
-
-$first-color: $blue;
-$second-color: $red;
-$third-color: $green;
-$fourth-color: $cyan;
-$fifth-color: $pink;
-$sixth-color: $purple;
-$seventh-color: $yellow;
-
+/**
+ * Gist.scss
+ * https://github.com/Aweary/gist.scss
+ * @author Brandon Dail
+ * @license MIT
+ */
 
 .gist {
 
@@ -35,9 +16,9 @@ $seventh-color: $yellow;
     border: $gist-border !important;
   }
   .gist-data {
-    padding: 1em;
+    padding: $gist-padding;
     background-color: $gist-bg !important;
-    color: blue !important;
+    color: $gist-color !important;
   }
   .highlight {
     background-color: $gist-bg !important;
