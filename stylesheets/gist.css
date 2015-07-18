@@ -1,0 +1,45 @@
+/**
+ * Site uses the Solarized color palette
+ * https://gist.github.com/planetoftheweb/6479462
+ */
+/* Gist meta section */
+/* Main background and general text style */
+/* Line numbers */
+/* Colors! */
+/* Main gist class */
+.gist {
+  /* primary text */
+  /* access the border */
+  /* Classes used for individual code components */ }
+  .gist .line-data {
+    color: #475B62; }
+  .gist .gist-file {
+    border: none !important; }
+  .gist .gist-data {
+    padding: 1em;
+    background-color: #EAE3CB !important;
+    color: #475B62 !important; }
+  .gist .highlight {
+    background-color: #EAE3CB !important; }
+  .gist .pl-k {
+    color: #A57706 !important; }
+  .gist .pl-s {
+    color: #D11C24 !important; }
+  .gist .pl-s3 {
+    color: #738A05 !important; }
+  .gist .pl-s1 {
+    color: #259286 !important; }
+  .gist .pl-st {
+    color: #C61C6F !important; }
+  .gist .pl-en {
+    color: #595AB7 !important; }
+  .gist .pl-pds {
+    color: #A57706 !important; }
+  .gist .line-numbers {
+    background-color: #EAE3CB !important;
+    color: #259286 !important;
+    border-right: #475B62 !important; }
+  .gist .gist-meta {
+    display: none;
+    background-color: #e3d9b9 !important;
+    color: #536870 !important; }
