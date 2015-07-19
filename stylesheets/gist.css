@@ -1,46 +1,36 @@
-/**
- * Site uses the Solarized color palette
- * https://gist.github.com/planetoftheweb/6479462
- */
-/* Gist meta section */
-/* Main background and general text style */
-/* Line numbers */
-/* Colors! */
-.gist {
-  /* primary text */
-  /* access the border */
-  /* Classes used for individual code components */ }
-  .gist .line-data {
-    color: #333333; }
-  .gist .gist-file {
-    border: none !important; }
-  .gist .gist-data {
-    padding: 1em;
-    background-color: #EEEEEE !important;
-    color: #333333 !important; }
-  .gist .highlight {
-    background-color: #EEEEEE !important; }
-  .gist .main-content table td {
-    border: none !important; }
-  .gist .pl-k {
-    color: #180821 !important; }
-  .gist .pl-s {
-    color: #D8BEED !important; }
-  .gist .pl-s3 {
-    color: #DB4E5B !important; }
-  .gist .pl-s1 {
-    color: #A72E16 !important; }
-  .gist .pl-st {
-    color: #247BA0 !important; }
-  .gist .pl-en {
-    color: #70C1B3 !important; }
-  .gist .pl-pds {
-    color: #AEADF0 !important; }
-  .gist .line-numbers {
-    background-color: #EEEEEE !important;
-    color: #04DBAC !important;
-    border: none !important; }
-  .gist .gist-meta {
-    display: block;
-    background-color: lightgray !important;
-    color: #536870 !important; }
+.gist .gist-meta {
+  display: block !important; }
+.gist .gist-meta {
+  display: block !important; }
+.gist .line-numbers {
+  border: none !important; }
+.gist .line-numbers {
+  color: #B52A1D !important; }
+.gist .line-numbers {
+  background-color: #EEEEEE !important; }
+.gist .gist-data {
+  background-color: #EEEEEE !important; }
+.gist .highlight {
+  background-color: #EEEEEE !important; }
+.gist .line-data {
+  color: #333333 !important; }
+.gist .gist-data {
+  color: #333333 !important; }
+.gist .gist-file {
+  border: none !important; }
+.gist .main-content table td {
+  border: none !important; }
+.gist .pl-k {
+  color: #04DBAC !important; }
+.gist .pl-s {
+  color: #B52A1D !important; }
+.gist .pl-s1 {
+  color: #1D5CB5 !important; }
+.gist .pl-s2 {
+  color: #31AFD4 !important; }
+.gist .pl-s3 {
+  color: #FE9000 !important; }
+.gist .pl-st {
+  color: #FFDD4A !important; }
+.gist .pl-en {
+  color: #094074 !important; }
