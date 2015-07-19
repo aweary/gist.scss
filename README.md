@@ -5,12 +5,20 @@
 gist.scss lets you style embedded gists using SCSS. It's as simple as declaring all the required variables and importing the `gist.scss` file into your Sass project.
 
 ## Usage
+
+You can download the raw file [here](https://raw.githubusercontent.com/Aweary/gist.scss/master/gist.scss), or you can install via `npm`.
+
+```js
+npm install --save gist.scss
+```
+
+Then you can just delcare the variables you want to use (described below), and import `gist.scss` to style all embedded gists on your page.
+
 ```scss
 @import 'your_variables.scss';
 @import 'gist.scss';
 ```
 
-![gist.scss example](https://raw.githubusercontent.com/Aweary/gist.scss/master/docs/example.png)
 
 ## Options
 
