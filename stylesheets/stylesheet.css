@@ -4,8 +4,8 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
   line-height: 1.5;
   color: #606c71; }
   
@@ -14,7 +14,7 @@ body {
  }
 
   h1 {
-    color: #DB4E5B;
+    color: #000000;
   }
 a {
   color: #1e6bb8;
