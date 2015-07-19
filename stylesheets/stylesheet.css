@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
   color: #606c71; }
   
@@ -13,6 +13,9 @@ body {
    font-family: 'Share Tech Mono';
  }
 
+  h1 {
+    color: #DB4E5B;
+  }
 a {
   color: #1e6bb8;
   text-decoration: none; }
