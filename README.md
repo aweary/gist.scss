@@ -1,19 +1,20 @@
 # [gist.scss](http://aweary.github.io/gist.scss/)
 
+## Summary
+
 gist.scss lets you style embedded gists using SCSS. It's as simple as declaring all the required variables and importing the `gist.scss` file into your Sass project.
 
+## Usage
 ```scss
 @import 'your_variables.scss';
 @import 'gist.scss';
 ```
-Remember that these variables are not initialized anywhere yet. See below for more details. Below is an example of a styled embedded Gist.
 
 ![gist.scss example](https://raw.githubusercontent.com/Aweary/gist.scss/master/docs/example.png)
 
-## Variables
+## Options
 
 You declare all `gist.scss` options in a Sass map titled `$gist`. All the available options are optional (*badum-tsh*).
-Make sure this included or declared before `gist.scss`.
 
 ```scss
 
