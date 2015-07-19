@@ -5,85 +5,58 @@
  * @license MIT
  */
 
-$classes: 'k' 's' 's1' 's2' 's3' 'st' 'en' 'pds';
 
-.gist {
+ @mixin map-gist-values($key, $class, $value) {
+   @if map-has-key($gist, $key) {
+     .#{$class} {
+       #{$value}: map-get($gist, $key) !important;
+     }
+   }
+ }
 
-  /* Background color */
-  @if map-has-key($gist, background) {
-    $gist-bg: map-get($gist, background);
-    .gist-data { background-color: $gist-bg !important; }
-    .highlight { background-color: $gist-bg !important; }
-  }
+ $classes: 'k' 's' 's1' 's2' 's3' 'st' 'en' 'pds';
 
-  /* Main font color */
-  @if map-has-key($gist, color) {
-    $gist-color: map-get($gist, color);
-    .line-data { color: $gist-color !important; }
-    .gist-data { color: $gist-color !important; }
-  }
+ .gist {
 
-  /* Main border */
-  @if map-has-key($gist, border) {
-    $gist-border: map-get($gist, border);
-    .gist-file { border: $gist-border !important; }
-    .main-content table td {
-      border: $gist-border !important;
-    }
-  }
+   @include map-gist-values(padding, gist-data, padding);
+   @include map-gist-values(meta-bg, gist-meta, background-color);
+   @include map-gist-values(meta-color, gist-meta, color);
+   @include map-gist-values(meta-display, gist-meta, display);
+   @include map-gist-values(meta-display, gist-meta, display);
+   @include map-gist-values(line-numbers-border, line-numbers, border);
+   @include map-gist-values(line-numbers-color, line-numbers, color);
+   @include map-gist-values(line-numbers-bg, line-numbers, background-color);
 
-  /* Padding */
-  @if map-has-key($gist, padding) {
-    $gist-padding: map-get($gist, padding);
-    .gist-data { padding: $gist-padding; }
 
-  }
+   @if map-has-key($gist, background) {
+     $gist-bg: map-get($gist, background);
+     .gist-data { background-color: $gist-bg !important; }
+     .highlight { background-color: $gist-bg !important; }
+   }
 
-  @if map-has-key($gist, colors) {
-    $colors: map-get($gist, colors);
-    @each $color in $colors {
-      $i: index($colors, $color);
-      $class: nth($classes, $i);
-      .pl-#{$class} {
-        color: $color !important;
-      }
-    }
-  }
 
-  @if map-has-key($gist, line-numbers-bg) {
-    .line-numbers {
-      background-color: map-get($gist, line-numbers-bg) !important;
-    }
-  }
+   @if map-has-key($gist, color) {
+     $gist-color: map-get($gist, color);
+     .line-data { color: $gist-color !important; }
+     .gist-data { color: $gist-color !important; }
+   }
 
-  @if map-has-key($gist, line-numbers-color) {
-    .line-numbers {
-      color: map-get($gist, line-numbers-color) !important;
-    }
-  }
+   @if map-has-key($gist, border) {
+     $gist-border: map-get($gist, border);
+     .gist-file { border: $gist-border !important; }
+     .main-content table td {
+       border: $gist-border !important;
+     }
+   }
 
-  @if map-has-key($gist, line-numbers-border) {
-    .line-numbers {
-      border: map-get($gist, line-numbers-border) !important;
-    }
-  }
-
-  @if map-has-key($gist, meta-display) {
-    .gist-meta {
-      display: map-get($gist, meta-display) !important;
-    }
-  }
-
-  @if map-has-key($gist, meta-bg) {
-    .gist-meta {
-      background-color: map-get($gist, meta-bg) !important;
-    }
-  }
-
-  @if map-has-key($gist, meta-color) {
-    .gist-meta {
-      color: map-get($gist, meta-color) !important;
-    }
-  }
-
-}
+   @if map-has-key($gist, colors) {
+     $colors: map-get($gist, colors);
+     @each $color in $colors {
+       $i: index($colors, $color);
+       $class: nth($classes, $i);
+       .pl-#{$class} {
+         color: $color !important;
+       }
+     }
+   }
+ }
