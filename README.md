@@ -1,4 +1,4 @@
-# [gist.scss](aweary.github.io/gist.scss)
+# [gist.scss](http://aweary.github.io/gist.scss/)
 
 gist.scss lets you style embedded gists using SCSS. It's as simple as declaring all the required variables and importing the `gist.scss` file into your Sass project.
 
