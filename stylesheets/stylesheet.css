@@ -14,6 +14,7 @@ body {
  }
 
   h1 {
+    font-size: 3em;
     color: #000000;
   }
 a {
@@ -67,7 +68,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #0086b3;
+  background-color: #04DBAC;
   padding: 1.5em;
 
 @media screen and (min-width: 64em) {
