@@ -4,6 +4,11 @@ gist.scss lets you style embedded gists using SCSS.
 
 ## Variables
 
+These variables are all required to be initialized. They are not placed
+within gist.scss so that anyone can easily add them to their _variables.scss file
+or manage their varibales however they like.
+
+
 ```scss
 
 

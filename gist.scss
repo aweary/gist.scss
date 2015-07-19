@@ -5,6 +5,8 @@
  * @license MIT
  */
 
+@import 'variables.scss';
+
 .gist {
 
   /* primary text */
@@ -24,20 +26,24 @@
     background-color: $gist-bg !important;
   }
 
+  .main-content table td {
+    border: $gist-border !important;
+  }
+
   /* Classes used for individual code components */
   .pl-k   { color: $first-color !important;   }
-  .pl-s   { color: $second-color !important;    }
-  .pl-s3  { color: $third-color !important;  }
-  .pl-s1  { color: $fourth-color !important;   }
+  .pl-s   { color: $second-color !important;  }
+  .pl-s3  { color: $third-color !important;   }
+  .pl-s1  { color: $fourth-color !important;  }
   .pl-st  { color: $fifth-color !important;   }
-  .pl-en  { color: $sixth-color !important; }
+  .pl-en  { color: $sixth-color !important;   }
   .pl-pds { color: $seventh-color !important; }
 
 
   .line-numbers {
     background-color: $gist-line-number-bg !important;
     color: $gist-line-number-color !important;
-    border-right: $darkgray !important;
+    border: $gist-line-border !important;
   }
 
   .gist-meta {
