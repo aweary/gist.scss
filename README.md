@@ -14,18 +14,18 @@ gist.scss lets you style embedded gists using SCSS. It's as simple as declaring 
 
 ## Options
 
-You declare all `gist.scss` options in a Sass map titled `$gist`. All the available options are optional (*badum-tsh*).
+You declare all `gist.scss` options in a Sass map titled `$gist`. All the available options are optional (*badum-tsh*). You can find an example below.
 
 ```scss
 
 $gist: (
-  background: $paleyellow,
-  color: $darkgray,
+  background: #FEFEFE,
+  color: #333333,
   border: none,
   padding: 3em,
-  colors: $green $pink $cyan $blue $orange $blue,
-  line-numbers-bg: $paleyellow,
-  line-numbers-color: $green,
+  colors: #FF44AA #AAFFAA #09ECDE #EFEFEF #5533EE #43EFFE,
+  line-numbers-bg: #FEFEFE,
+  line-numbers-color: #FF4444,
   line-numbers-border: none,
   meta-display: none,
 );
