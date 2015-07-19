@@ -1,6 +1,7 @@
 # gist.scss
 
 gist.scss lets you style embedded gists using SCSS.
+![gist.scss example](https://raw.githubusercontent.com/Aweary/gist.scss/master/docs/example.png)
 
 ## Variables
 
